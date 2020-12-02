@@ -1,0 +1,77 @@
+<head>
+<!-- Plotly.js -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        </head>
+        <body>
+        <!-- Plotly chart will be drawn inside this DIV -->
+        <div id="boxplotIC39_7"></div>
+        <script>
+        /* JAVASCRIPT CODE GOES HERE */
+
+
+
+var xData = ['G3','G2','G2-3','G1','G4'];
+
+var yData = [
+[-0.3332,0.1184,0.5132,0.7688,0.2861,0.0881,0.1789,0.0057,-0.2249,0.6383,0.3593,-0.1049,0.3252,0.5905,-0.393,0.1158,0.691,-0.3601,-0.1018,0.0433,0.1177,-0.1137,0.1446,0.5139,-0.2127,0.5063,0.0425,0.2212,0.1161,0.04,0.1083,-0.5367,0.5154,0.0667,0.0343,0.0302,-0.195,-0.3924,-0.4078,0.1335,-0.1114,-0.3767,0.1641,0.0486,0.1259,-0.2007,0.2117,0.1869,-0.4222],
+[-0.1039,-0.1837,-0.2891,-0.3015,0.104,0.2122,-0.3178,0.0761,0.3555,0.0489,0.0967,0.1811,0.5956,-0.0813,0.0545,-0.0552,-0.0098,-0.1528,-0.2859,-0.2317,-0.0545,-0.4339,0.1515,-0.3537,-0.3064,0.4819,-1.0102,0.313,-0.1725,0.4912,0.0499],
+[-0.3977,0.3413,0.2747,0.3875],
+[0.3704,0.414,0.0824,0.1491,0.4183,0.0252,0.0949,0.1559,0.6457],
+[-0.1893,-0.3543,-0.1544,0.0592,0.1699,0.2909,0.6141,0.0859,0.4221,0.4629]
+];
+
+var colors = ['rgba(255,0,0,1)','rgba(0,255,0,1)','rgba(0,0,255,1)','rgba(255,255,0,1)','rgba(255,0,255,1)'];
+
+var data = [];
+
+for ( var i = 0; i < xData.length; i ++ ) {
+  var result = {
+    type: 'box',
+    y: yData[i],
+    name: xData[i],
+    boxpoints: 'all',
+    jitter: 0.5,
+    whiskerwidth: 0.2,
+    fillcolor: 'cls',
+    marker: {
+      size: 2
+    },
+    line: {
+      width: 1
+    }
+  };
+  data.push(result);
+};
+
+layout = {
+    title: 'Association of IC39 with Grade',
+    yaxis: {
+        autorange: true,
+        showgrid: true,
+        zeroline: true,
+        dtick: 5,
+        gridcolor: 'rgb(255, 255, 255)',
+        gridwidth: 1,
+        zerolinecolor: 'rgb(255, 255, 255)',
+        zerolinewidth: 2
+    },
+    margin: {
+        l: 40,
+        r: 30,
+        b: 80,
+        t: 100
+    },
+    paper_bgcolor: 'rgb(243, 243, 243)',
+    plot_bgcolor: 'rgb(243, 243, 243)',
+    showlegend: false
+};
+
+Plotly.newPlot('boxplotIC39_7', data, layout);
+
+
+
+
+
+
+        </script>
+        </body>

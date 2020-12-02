@@ -1,0 +1,5282 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="cache-control" content="no-cache">
+		<META http-equiv="expires" content="0">
+		<TITLE>ToppGene Result Page</TITLE>
+
+		<LINK rel="stylesheet" type="text/css" href="toppgene/styles.css">
+		<SCRIPT type="text/javascript" src="toppgene/output.js"> </SCRIPT>
+		<SCRIPT type="text/javascript"><!--
+	function toggleAll() {
+		foo = document.getElementById("switch2");
+		
+		foo1 =document.getElementById("f1");
+		
+		foo2 =document.getElementById("f2");
+		
+		foo3 =document.getElementById("f3");
+		
+		foo4 =document.getElementById("f4");
+		
+		foo5 =document.getElementById("f5");
+		
+		foo6 =document.getElementById("f6");
+		
+		foo7 =document.getElementById("f7");
+		
+		foo8 =document.getElementById("f8");
+		
+		foo9 =document.getElementById("f9");
+		
+		foo10 =document.getElementById("f10");
+		
+		foo11 =document.getElementById("f11");
+		
+		foo12 =document.getElementById("f12");
+		
+		foo13 =document.getElementById("f13");
+		
+		foo14 =document.getElementById("f14");
+		
+		foo15 =document.getElementById("f15");
+		
+		foo16 =document.getElementById("f16");
+		
+		foo17 =document.getElementById("f17");
+		
+		foo18 =document.getElementById("f18");
+		
+		foo19 =document.getElementById("f19");
+		
+		if (foo.innerHTML=='Collapse All')
+		{
+			foo.innerHTML='Expand All';
+			 foo1.className='firstfive';	 foo2.className='firstfive';	 foo3.className='firstfive';	 foo4.className='firstfive';	 foo5.className='firstfive';	 foo6.className='firstfive';	 foo7.className='firstfive';	 foo8.className='firstfive';	 foo9.className='firstfive';	 foo10.className='firstfive';	 foo11.className='firstfive';	 foo12.className='firstfive';	 foo13.className='firstfive';	 foo14.className='firstfive';	 foo15.className='firstfive';	 foo16.className='firstfive';	 foo17.className='firstfive';	 foo18.className='firstfive';	 foo19.className='firstfive';	
+		}
+		else
+		{
+			foo.innerHTML='Collapse All';
+				foo1.className='';		foo2.className='';		foo3.className='';		foo4.className='';		foo5.className='';		foo6.className='';		foo7.className='';		foo8.className='';		foo9.className='';		foo10.className='';		foo11.className='';		foo12.className='';		foo13.className='';		foo14.className='';		foo15.className='';		foo16.className='';		foo17.className='';		foo18.className='';		foo19.className='';	
+		}
+		
+		return;
+	}
+	
+    --></SCRIPT>
+	</head>
+
+	<body>
+  
+  		<H1 align="center">Toppgene analysis for HTSeq_genes_nodedupnosubs_noR_noDupl_Log, IC60, positive side</H1>
+		<TABLE border="0" cellpadding="5" cellspacing="10" align="center" width="100%">
+			<TR>
+				<TD>
+				<A href="/">Go To Start Page</a>
+				</TD>
+			</TR>
+			<TR align="left">
+				<TD class="solid">
+					
+					<DIV class="container">
+
+						<DIV class="left-element">
+							Input Parameters [<A href="javascript:toggle('item1','switch1')" id="switch1" class="little-font">Show Detail</A>]
+						</DIV>
+
+					</DIV>
+
+					<DIV id="item1" style="display:none;font-size:14px; font-family:arial; font-weight:500">
+						<TABLE border="0" cellpadding="3" cellspacing="4" class="table-font">
+							<TR>
+								<TD>
+									Number of genes in training set:
+								</TD>
+								<TD>
+									<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=training&row=-1' onClick="return popup(this, 'TR')"> 174</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD>
+									Number of genes in test set:
+								</TD>
+								<TD>
+									<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=test&row=-1' onClick="return popup(this, 'TE')"> 0</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD>
+									Correction and Cutoff:
+								</TD>
+								<TD>
+								<table class="table-font">
+								<tr><th>category</th><th>Correction</th><th>Cutoff</th><th>Min</th><th>Max</th></tr>
+								
+								<tr class="odd_row">
+								<td>GO: Molecular Function</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="even_row">
+								<td>GO: Biological Process</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="odd_row">
+								<td>GO: Cellular Component</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="even_row">
+								<td>Human Phenotype</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="odd_row">
+								<td>Mouse Phenotype</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="even_row">
+								<td>Domain</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="odd_row">
+								<td>Pathway</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="even_row">
+								<td>Pubmed</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="odd_row">
+								<td>Interaction</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="even_row">
+								<td>Cytoband</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="odd_row">
+								<td>Transcription Factor Binding Site</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="even_row">
+								<td>Gene Family</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="odd_row">
+								<td>Coexpression</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="even_row">
+								<td>Coexpression Atlas</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="odd_row">
+								<td>Computational</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="even_row">
+								<td>MicroRNA</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="odd_row">
+								<td>Drug</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								<tr class="even_row">
+								<td>Disease</td>
+								<td>FDR B&H</td>
+								<td>0.05</td>
+								<td>1</td>
+								<td>500</td>
+								</tr>
+								
+								</table>
+								</TD>
+							</TR>
+							<TR>
+								<TD>
+									pValue Method:
+								</TD>
+								<TD>
+									Hypergeometric 1-(Cumulative Distribution Function)
+								</TD>
+							</TR>
+							<TR>
+								<TD>
+									Random sampling size in analysis:
+								</TD>
+								<TD>
+									0
+								</TD>
+							</TR>
+							<TR>
+								<TD>
+									Minimun feature count in test set:
+								</TD>
+								<TD>
+									2
+								</TD>
+							</TR>
+							<TR>
+								<TD>
+									Analysis took:
+								</TD>
+								<TD>
+									0
+									seconds
+								</TD>
+							</TR>
+							<TR>
+								<TD>
+									Analysis finished at:
+								</TD>
+								<TD>
+									Sat Oct 31 10:36:58 EDT 2020
+								</TD>
+							</TR>
+							
+						</TABLE>
+					</DIV>
+					
+				</TD>
+			</TR>
+
+			
+			<TR align="left">
+				<TD class="solid">
+					<DIV class="container">
+
+						<DIV class="left-element">
+							Training Results 
+							[<A href="javascript:toggleAll()" id='switch2' class="little-font">Expand All</A>] 
+							[<A href='https://toppgene.cchmc.org/download.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&_formatting=SCI4' class="little-font">Download All</A>]
+							[<A href="https://toppgene.cchmc.org/ResultsMatrix?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4" class="little-font">Sparse Matrix</A>]
+							<form id="settings" style="display: inline;"><input type="hidden" name="userdata_id" value="99a7e72f-ba3c-46df-805b-a691c3cda3c4" />
+
+<span class="small">Display pValues and Scores as </span>
+<select name="_formatting" onchange="getElementById('settings').submit();">
+<option value="SCI4" selected="selected">Scientific (4 significant digits)</option><option value="FIX4">Fixed (4 decimal places)</option><option value="SCI7">Scientific (7 significant digits)</option><option value="FIX7">Fixed (7 decimal places)</option>
+</select>
+
+<span class="small">Table row limit</span>
+<select name="_limit" onchange="getElementById('settings').submit();"><option >25</option>
+<option selected>50</option>
+<option >100</option>
+<option >200</option>
+
+</select>
+
+							</form>
+						</DIV>
+
+					</DIV>
+					<TABLE border="0" cellpadding="5" cellspacing="10" width="100%">
+
+<TR>
+	<TD>
+		<h4>1: GO: Molecular Function [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=gof' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">152 input genes in category / 397 annotations before applied cutoff / 19248 genes in category</span>
+		</h4>
+		<div class="indent">
+		
+		<DIV id="f1_0" class="firstfive">
+			<TABLE border="0" cellpadding="3" cellspacing="4" class="table-font solid2">
+				<TR class="tblhead">
+					<TD>
+					</TD>
+					<TD>ID</TD>
+					<TD>Name</TD>
+					<TD>Source</TD>
+					<TD>pValue</TD>
+					<TD>FDR B&H</TD>
+					<TD>FDR B&Y</TD>
+					<TD>Bonferroni</TD>
+					<TD>
+						Genes from Input
+					</TD>
+					<TD>
+						Genes in Annotation
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						1
+					</TD>
+					<TD class="m">
+						GO:0003823
+					</TD>
+					<TD>
+						antigen binding
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0003823" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						1.066E-6
+					</TD>
+					<TD class="r">
+						4.231E-4
+					</TD>
+					<TD class="r">
+						2.777E-3
+					</TD>
+					<TD class="r">
+						4.231E-4
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=gof&row=0' onClick="return popup(this, 'gof_0')"> 10</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyMolecularFunction&id=GO:0003823&namespace= ">171</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						2
+					</TD>
+					<TD class="m">
+						GO:0042605
+					</TD>
+					<TD>
+						peptide antigen binding
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0042605" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						1.442E-4
+					</TD>
+					<TD class="r">
+						2.861E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.878E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">5.723E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=gof&row=1' onClick="return popup(this, 'gof_1')"> 4</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyMolecularFunction&id=GO:0042605&namespace= ">34</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						3
+					</TD>
+					<TD class="m">
+						GO:0034987
+					</TD>
+					<TD>
+						immunoglobulin receptor binding
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0034987" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						3.595E-4
+					</TD>
+					<TD class="r">
+						4.516E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.964E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">1.427E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=gof&row=2' onClick="return popup(this, 'gof_2')"> 5</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyMolecularFunction&id=GO:0034987&namespace= ">77</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						4
+					</TD>
+					<TD class="m">
+						GO:0038024
+					</TD>
+					<TD>
+						cargo receptor activity
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0038024" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						4.550E-4
+					</TD>
+					<TD class="r">
+						4.516E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.964E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">1.806E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=gof&row=3' onClick="return popup(this, 'gof_3')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyMolecularFunction&id=GO:0038024&namespace= ">173</A>
+					</TD>
+				</TR>
+				</TABLE>
+		</DIV>
+		
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>2: GO: Biological Process [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=gop' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">149 input genes in category / 2099 annotations before applied cutoff / 20148 genes in category</span>
+		</h4>
+		<div class="indent">
+		
+		<DIV id="f2_0" class="firstfive">
+			<TABLE border="0" cellpadding="3" cellspacing="4" class="table-font solid2">
+				<TR class="tblhead">
+					<TD>
+					</TD>
+					<TD>ID</TD>
+					<TD>Name</TD>
+					<TD>Source</TD>
+					<TD>pValue</TD>
+					<TD>FDR B&H</TD>
+					<TD>FDR B&Y</TD>
+					<TD>Bonferroni</TD>
+					<TD>
+						Genes from Input
+					</TD>
+					<TD>
+						Genes in Annotation
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						1
+					</TD>
+					<TD class="m">
+						GO:0002455
+					</TD>
+					<TD>
+						humoral immune response mediated by circulating immunoglobulin
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0002455" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						1.769E-5
+					</TD>
+					<TD class="r">
+						3.713E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.055E-1</div>
+					</TD>
+					<TD class="r">
+						3.713E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=gop&row=0' onClick="return popup(this, 'gop_0')"> 8</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyBiologicalProcess&id=GO:0002455&namespace= ">152</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						2
+					</TD>
+					<TD class="m">
+						GO:0016064
+					</TD>
+					<TD>
+						immunoglobulin mediated immune response
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0016064" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						5.502E-5
+					</TD>
+					<TD class="r">
+						4.397E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.618E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">1.155E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=gop&row=1' onClick="return popup(this, 'gop_1')"> 9</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyBiologicalProcess&id=GO:0016064&namespace= ">230</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						3
+					</TD>
+					<TD class="m">
+						GO:0019724
+					</TD>
+					<TD>
+						B cell mediated immunity
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0019724" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						6.285E-5
+					</TD>
+					<TD class="r">
+						4.397E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.618E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">1.319E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=gop&row=2' onClick="return popup(this, 'gop_2')"> 9</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyBiologicalProcess&id=GO:0019724&namespace= ">234</A>
+					</TD>
+				</TR>
+				</TABLE>
+		</DIV>
+		
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>3: GO: Cellular Component [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=goc' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">155 input genes in category / 264 annotations before applied cutoff / 20584 genes in category</span>
+		</h4>
+		<div class="indent">
+		
+		<DIV id="f3_0" class="firstfive">
+			<TABLE border="0" cellpadding="3" cellspacing="4" class="table-font solid2">
+				<TR class="tblhead">
+					<TD>
+					</TD>
+					<TD>ID</TD>
+					<TD>Name</TD>
+					<TD>Source</TD>
+					<TD>pValue</TD>
+					<TD>FDR B&H</TD>
+					<TD>FDR B&Y</TD>
+					<TD>Bonferroni</TD>
+					<TD>
+						Genes from Input
+					</TD>
+					<TD>
+						Genes in Annotation
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						1
+					</TD>
+					<TD class="m">
+						GO:0019814
+					</TD>
+					<TD>
+						immunoglobulin complex
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0019814" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						2.055E-4
+					</TD>
+					<TD class="r">
+						1.920E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.182E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">5.425E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=goc&row=0' onClick="return popup(this, 'goc_0')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyCellularComponent&id=GO:0019814&namespace= ">159</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						2
+					</TD>
+					<TD class="m">
+						GO:0042571
+					</TD>
+					<TD>
+						immunoglobulin complex, circulating
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0042571" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						2.115E-4
+					</TD>
+					<TD class="r">
+						1.920E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.182E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">5.584E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=goc&row=1' onClick="return popup(this, 'goc_1')"> 5</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyCellularComponent&id=GO:0042571&namespace= ">72</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						3
+					</TD>
+					<TD class="m">
+						GO:0042613
+					</TD>
+					<TD>
+						MHC class II protein complex
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0042613" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						2.182E-4
+					</TD>
+					<TD class="r">
+						1.920E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.182E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">5.761E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=goc&row=2' onClick="return popup(this, 'goc_2')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyCellularComponent&id=GO:0042613&namespace= ">16</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						4
+					</TD>
+					<TD class="m">
+						GO:0030669
+					</TD>
+					<TD>
+						clathrin-coated endocytic vesicle membrane
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0030669" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						3.624E-4
+					</TD>
+					<TD class="r">
+						2.392E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.472E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">9.567E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=goc&row=3' onClick="return popup(this, 'goc_3')"> 4</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyCellularComponent&id=GO:0030669&namespace= ">45</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						5
+					</TD>
+					<TD class="m">
+						GO:0009897
+					</TD>
+					<TD>
+						external side of plasma membrane
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0009897" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						6.691E-4
+					</TD>
+					<TD class="r">
+						3.533E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.175E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">1.767E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=goc&row=4' onClick="return popup(this, 'goc_4')"> 11</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyCellularComponent&id=GO:0009897&namespace= ">454</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						6
+					</TD>
+					<TD class="m">
+						GO:0042611
+					</TD>
+					<TD>
+						MHC protein complex
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0042611" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						9.588E-4
+					</TD>
+					<TD class="r">
+						4.219E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.597E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">2.531E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=goc&row=5' onClick="return popup(this, 'goc_5')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyCellularComponent&id=GO:0042611&namespace= ">26</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						7
+					</TD>
+					<TD class="m">
+						GO:0098553
+					</TD>
+					<TD>
+						lumenal side of endoplasmic reticulum membrane
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0098553" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						1.325E-3
+					</TD>
+					<TD class="r">
+						4.374E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.692E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">3.499E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=goc&row=6' onClick="return popup(this, 'goc_6')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyCellularComponent&id=GO:0098553&namespace= ">29</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						8
+					</TD>
+					<TD class="m">
+						GO:0071556
+					</TD>
+					<TD>
+						integral component of lumenal side of endoplasmic reticulum membrane
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0071556" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						1.325E-3
+					</TD>
+					<TD class="r">
+						4.374E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.692E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">3.499E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=goc&row=7' onClick="return popup(this, 'goc_7')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyCellularComponent&id=GO:0071556&namespace= ">29</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						9
+					</TD>
+					<TD class="m">
+						GO:0045334
+					</TD>
+					<TD>
+						clathrin-coated endocytic vesicle
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/ego/DisplayGoTerm?id=GO:0045334" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						1.640E-3
+					</TD>
+					<TD class="r">
+						4.811E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.961E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">4.330E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=goc&row=8' onClick="return popup(this, 'goc_8')"> 4</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=GeneOntologyCellularComponent&id=GO:0045334&namespace= ">67</A>
+					</TD>
+				</TR>
+				</TABLE><div class="showmore" onclick="showAll('3_0');">Show 4 more annotations</div>
+		</DIV>
+		
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>4: Human Phenotype [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=hp' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">39 input genes in category / 2107 annotations before applied cutoff / 4707 genes in category</span>
+		</h4>
+		<div class="indent">
+		
+		<DIV id="f4_0" class="firstfive">
+			<TABLE border="0" cellpadding="3" cellspacing="4" class="table-font solid2">
+				<TR class="tblhead">
+					<TD>
+					</TD>
+					<TD>ID</TD>
+					<TD>Name</TD>
+					<TD>Source</TD>
+					<TD>pValue</TD>
+					<TD>FDR B&H</TD>
+					<TD>FDR B&Y</TD>
+					<TD>Bonferroni</TD>
+					<TD>
+						Genes from Input
+					</TD>
+					<TD>
+						Genes in Annotation
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						1
+					</TD>
+					<TD class="m">
+						HP:0100507
+					</TD>
+					<TD>
+						Reduced blood folate concentration
+					</TD>
+					<TD>
+						<a href="null" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						6.690E-5
+					</TD>
+					<TD class="r">
+						4.942E-2
+					</TD>
+					<TD class="r">
+						<div class="o">4.067E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">1.410E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=hp&row=0' onClick="return popup(this, 'hp_0')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=HumanPheno&id=HP:0100507&namespace= ">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						2
+					</TD>
+					<TD class="m">
+						HP:0012335
+					</TD>
+					<TD>
+						Abnormality of folate metabolism
+					</TD>
+					<TD>
+						<a href="null" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						6.690E-5
+					</TD>
+					<TD class="r">
+						4.942E-2
+					</TD>
+					<TD class="r">
+						<div class="o">4.067E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">1.410E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=hp&row=1' onClick="return popup(this, 'hp_1')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=HumanPheno&id=HP:0012335&namespace= ">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						3
+					</TD>
+					<TD class="m">
+						HP:0001289
+					</TD>
+					<TD>
+						Confusion
+					</TD>
+					<TD>
+						<a href="null" target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						7.037E-5
+					</TD>
+					<TD class="r">
+						4.942E-2
+					</TD>
+					<TD class="r">
+						<div class="o">4.067E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">1.483E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=hp&row=2' onClick="return popup(this, 'hp_2')"> 10</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=HumanPheno&id=HP:0001289&namespace= ">283</A>
+					</TD>
+				</TR>
+				</TABLE>
+		</DIV>
+		
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>5: Mouse Phenotype [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mp' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">89 input genes in category / 1989 annotations before applied cutoff / 10985 genes in category</span>
+		</h4>
+		<div class="indent">
+		<div class="via">No results to display</div>
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>6: Domain [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=dt' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">142 input genes in category / 948 annotations before applied cutoff / 18735 genes in category</span>
+		</h4>
+		<div class="indent">
+		
+		<DIV id="f6_0" class="firstfive">
+			<TABLE border="0" cellpadding="3" cellspacing="4" class="table-font solid2">
+				<TR class="tblhead">
+					<TD>
+					</TD>
+					<TD>ID</TD>
+					<TD>Name</TD>
+					<TD>Source</TD>
+					<TD>pValue</TD>
+					<TD>FDR B&H</TD>
+					<TD>FDR B&Y</TD>
+					<TD>Bonferroni</TD>
+					<TD>
+						Genes from Input
+					</TD>
+					<TD>
+						Genes in Annotation
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						1
+					</TD>
+					<TD class="m">
+						PF15441
+					</TD>
+					<TD>
+						ARHGEF5 35
+					</TD>
+					<TD>
+						<a href="http://pfam.sanger.ac.uk/family/PF15441" target="_blank">Pfam</a>
+					</TD>
+					<TD class="r">
+						5.705E-5
+					</TD>
+					<TD class="r">
+						2.704E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.010E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">5.408E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=dt&row=0' onClick="return popup(this, 'dt_0')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Domain&id=PF15441&namespace=Pfam">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						2
+					</TD>
+					<TD class="m">
+						IPR029212
+					</TD>
+					<TD>
+						ARHGEF5/35 N
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/interpro/IEntry?ac=IPR029212" target="_blank">InterPro</a>
+					</TD>
+					<TD class="r">
+						5.705E-5
+					</TD>
+					<TD class="r">
+						2.704E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.010E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">5.408E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=dt&row=1' onClick="return popup(this, 'dt_1')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Domain&id=IPR029212&namespace=InterPro">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						3
+					</TD>
+					<TD class="m">
+						IPR014745
+					</TD>
+					<TD>
+						MHC II a/b N
+					</TD>
+					<TD>
+						<a href="http://www.ebi.ac.uk/interpro/IEntry?ac=IPR014745" target="_blank">InterPro</a>
+					</TD>
+					<TD class="r">
+						1.460E-4
+					</TD>
+					<TD class="r">
+						3.459E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.571E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">1.384E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=dt&row=2' onClick="return popup(this, 'dt_2')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Domain&id=IPR014745&namespace=InterPro">14</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						4
+					</TD>
+					<TD class="m">
+						3.10.320.10
+					</TD>
+					<TD>
+						-
+					</TD>
+					<TD>
+						<a href="http://www.cathdb.info/cgi-bin/GotoCath.pl?cath=3.10.320.10" target="_blank">Gene3D</a>
+					</TD>
+					<TD class="r">
+						1.460E-4
+					</TD>
+					<TD class="r">
+						3.459E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.571E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">1.384E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=dt&row=3' onClick="return popup(this, 'dt_3')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Domain&id=3.10.320.10&namespace=Gene3D">14</A>
+					</TD>
+				</TR>
+				</TABLE>
+		</DIV>
+		
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>7: Pathway [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pt' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">90 input genes in category / 735 annotations before applied cutoff / 12511 genes in category</span>
+		</h4>
+		<div class="indent">
+		
+		<DIV id="f7_0" class="firstfive">
+			<TABLE border="0" cellpadding="3" cellspacing="4" class="table-font solid2">
+				<TR class="tblhead">
+					<TD>
+					</TD>
+					<TD>ID</TD>
+					<TD>Name</TD>
+					<TD>Source</TD>
+					<TD>pValue</TD>
+					<TD>FDR B&H</TD>
+					<TD>FDR B&Y</TD>
+					<TD>Bonferroni</TD>
+					<TD>
+						Genes from Input
+					</TD>
+					<TD>
+						Genes in Annotation
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						1
+					</TD>
+					<TD class="m">
+						M13950
+					</TD>
+					<TD>
+						Asthma
+					</TD>
+					<TD>
+						<a href="http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_ASTHMA.html" target="_blank">MSigDB C2 BIOCARTA (v7.1)</a>
+					</TD>
+					<TD class="r">
+						5.948E-5
+					</TD>
+					<TD class="r">
+						2.496E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.791E-1</div>
+					</TD>
+					<TD class="r">
+						4.372E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pt&row=0' onClick="return popup(this, 'pt_0')"> 4</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pathway&id=M13950&namespace=MSigDB C2 BIOCARTA (v7.1)">30</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						2
+					</TD>
+					<TD class="m">
+						83120
+					</TD>
+					<TD>
+						Asthma
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/biosystems/83120" target="_blank">BioSystems: KEGG</a>
+					</TD>
+					<TD class="r">
+						6.791E-5
+					</TD>
+					<TD class="r">
+						2.496E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.791E-1</div>
+					</TD>
+					<TD class="r">
+						4.992E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pt&row=1' onClick="return popup(this, 'pt_1')"> 4</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pathway&id=83120&namespace=BioSystems: KEGG">31</A>
+					</TD>
+				</TR>
+				</TABLE>
+		</DIV>
+		
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>8: Pubmed [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">168 input genes in category / 17258 annotations before applied cutoff / 38699 genes in category</span>
+		</h4>
+		<div class="indent">
+		
+		<DIV id="f8_0" class="firstfive">
+			<TABLE border="0" cellpadding="3" cellspacing="4" class="table-font solid2">
+				<TR class="tblhead">
+					<TD>
+					</TD>
+					<TD>ID</TD>
+					<TD>Name</TD>
+					<TD>Source</TD>
+					<TD>pValue</TD>
+					<TD>FDR B&H</TD>
+					<TD>FDR B&Y</TD>
+					<TD>Bonferroni</TD>
+					<TD>
+						Genes from Input
+					</TD>
+					<TD>
+						Genes in Annotation
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						1
+					</TD>
+					<TD class="m">
+						11082515
+					</TD>
+					<TD>
+						Multiple sclerosis associated amino acids of polymorphic regions relevant for the HLA antigen binding are confined to HLA-DR2.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=11082515" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						8.037E-8
+					</TD>
+					<TD class="r">
+						7.900E-4
+					</TD>
+					<TD class="r">
+						8.163E-3
+					</TD>
+					<TD class="r">
+						1.387E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=0' onClick="return popup(this, 'pm_0')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=11082515&namespace=Pubmed">3</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						2
+					</TD>
+					<TD class="m">
+						19380721
+					</TD>
+					<TD>
+						Epistasis among HLA-DRB1, HLA-DQA1, and HLA-DQB1 loci determines multiple sclerosis susceptibility.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=19380721" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						3.204E-7
+					</TD>
+					<TD class="r">
+						7.900E-4
+					</TD>
+					<TD class="r">
+						8.163E-3
+					</TD>
+					<TD class="r">
+						5.530E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=1' onClick="return popup(this, 'pm_1')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=19380721&namespace=Pubmed">4</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						3
+					</TD>
+					<TD class="m">
+						14752708
+					</TD>
+					<TD>
+						[The relation between the HLA-DRB1*1501 allele and the severity of multiple sclerosis in a sample of the Spanish population from the Balearic Islands: the influence exerted by sex].
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=14752708" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						3.204E-7
+					</TD>
+					<TD class="r">
+						7.900E-4
+					</TD>
+					<TD class="r">
+						8.163E-3
+					</TD>
+					<TD class="r">
+						5.530E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=2' onClick="return popup(this, 'pm_2')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=14752708&namespace=Pubmed">4</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						4
+					</TD>
+					<TD class="m">
+						11034591
+					</TD>
+					<TD>
+						Co-amoxiclav jaundice: clinical and histological features and HLA class II association.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=11034591" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						3.204E-7
+					</TD>
+					<TD class="r">
+						7.900E-4
+					</TD>
+					<TD class="r">
+						8.163E-3
+					</TD>
+					<TD class="r">
+						5.530E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=3' onClick="return popup(this, 'pm_3')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=11034591&namespace=Pubmed">4</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						5
+					</TD>
+					<TD class="m">
+						2212675
+					</TD>
+					<TD>
+						Two divergent routes of evolution gave rise to the DRw13 haplotypes.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=2212675" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						3.204E-7
+					</TD>
+					<TD class="r">
+						7.900E-4
+					</TD>
+					<TD class="r">
+						8.163E-3
+					</TD>
+					<TD class="r">
+						5.530E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=4' onClick="return popup(this, 'pm_4')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=2212675&namespace=Pubmed">4</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						6
+					</TD>
+					<TD class="m">
+						11555411
+					</TD>
+					<TD>
+						Associations of MHC class II alleles in Norwegian primary SjÃ¶gren's syndrome patients: implications for development of autoantibodies to the Ro52 autoantigen.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=11555411" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						3.204E-7
+					</TD>
+					<TD class="r">
+						7.900E-4
+					</TD>
+					<TD class="r">
+						8.163E-3
+					</TD>
+					<TD class="r">
+						5.530E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=5' onClick="return popup(this, 'pm_5')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=11555411&namespace=Pubmed">4</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						7
+					</TD>
+					<TD class="m">
+						3259543
+					</TD>
+					<TD>
+						MHC class II sequences of an HLA-DR2 narcoleptic.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=3259543" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						3.204E-7
+					</TD>
+					<TD class="r">
+						7.900E-4
+					</TD>
+					<TD class="r">
+						8.163E-3
+					</TD>
+					<TD class="r">
+						5.530E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=6' onClick="return popup(this, 'pm_6')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=3259543&namespace=Pubmed">4</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						8
+					</TD>
+					<TD class="m">
+						20639878
+					</TD>
+					<TD>
+						A genome-wide study identifies HLA alleles associated with lumiracoxib-related liver injury.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=20639878" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						7.985E-7
+					</TD>
+					<TD class="r">
+						1.531E-3
+					</TD>
+					<TD class="r">
+						1.582E-2
+					</TD>
+					<TD class="r">
+						1.378E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=7' onClick="return popup(this, 'pm_7')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=20639878&namespace=Pubmed">5</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						9
+					</TD>
+					<TD class="m">
+						3129499
+					</TD>
+					<TD>
+						Molecular studies of a rare DR2/LD-5a/DQw3 HLA class II haplotype. Multiple genetic mechanisms in the generation of polymorphic HLA class II genes.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=3129499" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						7.985E-7
+					</TD>
+					<TD class="r">
+						1.531E-3
+					</TD>
+					<TD class="r">
+						1.582E-2
+					</TD>
+					<TD class="r">
+						1.378E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=8' onClick="return popup(this, 'pm_8')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=3129499&namespace=Pubmed">5</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						10
+					</TD>
+					<TD class="m">
+						11082517
+					</TD>
+					<TD>
+						A comparison of molecular HLA-DR and DQ allele profiles forming DR51-, DR52-, and DR53-related haplotypes in five ethnic Thai populations from mainland southeast Asia.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=11082517" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.592E-6
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						2.747E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=9' onClick="return popup(this, 'pm_9')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=11082517&namespace=Pubmed">6</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						11
+					</TD>
+					<TD class="m">
+						11997714
+					</TD>
+					<TD>
+						HLA class II DNA typing in a large series of European patients with systemic lupus erythematosus: correlations with clinical and autoantibody subsets.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=11997714" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.592E-6
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						2.747E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=10' onClick="return popup(this, 'pm_10')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=11997714&namespace=Pubmed">6</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						12
+					</TD>
+					<TD class="m">
+						16335952
+					</TD>
+					<TD>
+						Human plasma N-glycoproteome analysis by immunoaffinity subtraction, hydrazide chemistry, and mass spectrometry.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=16335952" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						2.061E-6
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						3.556E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=11' onClick="return popup(this, 'pm_11')"> 9</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=16335952&namespace=Pubmed">257</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						13
+					</TD>
+					<TD class="m">
+						18569076
+					</TD>
+					<TD>
+						Anti-cofactor autoantibodies in systemic lupus erythematosus: prevalence, clinical and HLA class II associations.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=18569076" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						2.777E-6
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						4.793E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=12' onClick="return popup(this, 'pm_12')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=18569076&namespace=Pubmed">7</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						14
+					</TD>
+					<TD class="m">
+						20356827
+					</TD>
+					<TD>
+						Crystal structure of HLA-DP2 and implications for chronic beryllium disease.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=20356827" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						2.777E-6
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						4.793E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=13' onClick="return popup(this, 'pm_13')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=20356827&namespace=Pubmed">7</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						15
+					</TD>
+					<TD class="m">
+						11181188
+					</TD>
+					<TD>
+						[Two loci HLA haplotypes in celiac children. Linkage imbalance and haplotype frequencies. Comparative study with a control population].
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=11181188" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						4.429E-6
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">7.644E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=14' onClick="return popup(this, 'pm_14')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=11181188&namespace=Pubmed">8</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						16
+					</TD>
+					<TD class="m">
+						17273841
+					</TD>
+					<TD>
+						The first avian Ig-like Fc receptor family member combines features of mammalian FcR and FCRL.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=17273841" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						9.430E-6
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.627E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=15' onClick="return popup(this, 'pm_15')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=17273841&namespace=Pubmed">10</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						17
+					</TD>
+					<TD class="m">
+						12956878
+					</TD>
+					<TD>
+						Roles of HLA-B, HLA-C and HLA-DPA1 incompatibilities in the outcome of unrelated stem-cell transplantation.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=12956878" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						9.430E-6
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.627E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=16' onClick="return popup(this, 'pm_16')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=12956878&namespace=Pubmed">10</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						18
+					</TD>
+					<TD class="m">
+						26829741
+					</TD>
+					<TD>
+						[Analysis of the association of human leukocyte antigen DQ gene polymorphisms with unexplained recurrent spontaneous abortion among ethnic Han Chinese from Wenzhou region].
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=26829741" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=17' onClick="return popup(this, 'pm_17')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=26829741&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						19
+					</TD>
+					<TD class="m">
+						11972882
+					</TD>
+					<TD>
+						HLA-DQA1 and -DQB1 genes and Helicobacter pylori infection in Italian patients with gastric adenocarcinoma.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=11972882" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=18' onClick="return popup(this, 'pm_18')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=11972882&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						20
+					</TD>
+					<TD class="m">
+						15059369
+					</TD>
+					<TD>
+						[Subclassification of seronegative type 1 diabetic subjects with HLA-DQ genotypes].
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=15059369" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=19' onClick="return popup(this, 'pm_19')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=15059369&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						21
+					</TD>
+					<TD class="m">
+						11776160
+					</TD>
+					<TD>
+						[Study on human leucocyte antigen-DQ region gene polymorphism in cases of habitual abortion with anticardiolipin antibody].
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=11776160" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=20' onClick="return popup(this, 'pm_20')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=11776160&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						22
+					</TD>
+					<TD class="m">
+						3584986
+					</TD>
+					<TD>
+						Complete sequence of the HLA DQ alpha and DQ beta cDNA from a DR5/DQw3 cell line.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=3584986" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=21' onClick="return popup(this, 'pm_21')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=3584986&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						23
+					</TD>
+					<TD class="m">
+						11218373
+					</TD>
+					<TD>
+						HLA-DQ locus of the human leukocyte antigen complex and type 1 diabetes mellitus: a HuGE review.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=11218373" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=22' onClick="return popup(this, 'pm_22')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=11218373&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						24
+					</TD>
+					<TD class="m">
+						15756536
+					</TD>
+					<TD>
+						Combined positivity for HLA DQ2/DQ8 and IA-2 antibodies defines population at high risk of developing type 1 diabetes.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=15756536" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=23' onClick="return popup(this, 'pm_23')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=15756536&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						25
+					</TD>
+					<TD class="m">
+						21971049
+					</TD>
+					<TD>
+						Autotaxin regulates vascular development via multiple lysophosphatidic acid (LPA) receptors in zebrafish.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=21971049" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=24' onClick="return popup(this, 'pm_24')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=21971049&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						26
+					</TD>
+					<TD class="m">
+						19500688
+					</TD>
+					<TD>
+						Stratifying risk for celiac disease in a large at-risk United States population by using HLA alleles.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=19500688" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=25' onClick="return popup(this, 'pm_25')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=19500688&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						27
+					</TD>
+					<TD class="m">
+						22184118
+					</TD>
+					<TD>
+						Type 1 diabetes-associated HLA-DQ8 transdimer accommodates a unique peptide repertoire.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=22184118" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=26' onClick="return popup(this, 'pm_26')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=22184118&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						28
+					</TD>
+					<TD class="m">
+						12039527
+					</TD>
+					<TD>
+						HLA DQA1-DQB1 genotypes in Bedouin families with celiac disease.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=12039527" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=27' onClick="return popup(this, 'pm_27')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=12039527&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						29
+					</TD>
+					<TD class="m">
+						15996167
+					</TD>
+					<TD>
+						HLA-DQA1, -DQB1 polymorphism and genetic susceptibility to idiopathic dilated cardiomyopathy in Hans of northern China.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=15996167" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=28' onClick="return popup(this, 'pm_28')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=15996167&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						30
+					</TD>
+					<TD class="m">
+						15107633
+					</TD>
+					<TD>
+						Associations among human leukocyte antigen (HLA) class II DQ variants, bacterial sexually transmitted diseases, endometritis, and fertility among women with clinical pelvic inflammatory disease.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=15107633" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=29' onClick="return popup(this, 'pm_29')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=15107633&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						31
+					</TD>
+					<TD class="m">
+						23628390
+					</TD>
+					<TD>
+						No association of the HLA-DQ alleles with myasthenia gravis in Cuban patients.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=23628390" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=30' onClick="return popup(this, 'pm_30')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=23628390&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						32
+					</TD>
+					<TD class="m">
+						11934390
+					</TD>
+					<TD>
+						HLA polymorphism in type 1 diabetes Tunisians.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=11934390" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=31' onClick="return popup(this, 'pm_31')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=11934390&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						33
+					</TD>
+					<TD class="m">
+						19561379
+					</TD>
+					<TD>
+						Association of HLA-DQA1*0101/2 and DQB1*0502 with myasthenia gravis in southern Iranian patients.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=19561379" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=32' onClick="return popup(this, 'pm_32')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=19561379&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						34
+					</TD>
+					<TD class="m">
+						15301863
+					</TD>
+					<TD>
+						The rare HLA-DQA1*03-DQB1*02 haplotype confers susceptibility to type 1 diabetes in whites and is preferentially associated with early clinical disease onset in male subjects.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=15301863" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=33' onClick="return popup(this, 'pm_33')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=15301863&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						35
+					</TD>
+					<TD class="m">
+						11195230
+					</TD>
+					<TD>
+						HLA-DQA1*05-DQB1*0201 positivity predisposes to coeliac disease in Czech diabetic children.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=11195230" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=34' onClick="return popup(this, 'pm_34')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=11195230&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						36
+					</TD>
+					<TD class="m">
+						16720217
+					</TD>
+					<TD>
+						HLA-DQ polymorphism in Turkish patients with myasthenia gravis.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=16720217" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=35' onClick="return popup(this, 'pm_35')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=16720217&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						37
+					</TD>
+					<TD class="m">
+						18200971
+					</TD>
+					<TD>
+						[Association between HLA-DQA1, HLA-DQB1 alleles and risk of early pregnancy loss].
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=18200971" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=36' onClick="return popup(this, 'pm_36')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=18200971&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						38
+					</TD>
+					<TD class="m">
+						17344279
+					</TD>
+					<TD>
+						HLA related genetic risk for coeliac disease.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=17344279" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=37' onClick="return popup(this, 'pm_37')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=17344279&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						39
+					</TD>
+					<TD class="m">
+						16911023
+					</TD>
+					<TD>
+						Interactions between fetal HLA-DQ alleles and maternal smoking influence birthweight.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=16911023" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=38' onClick="return popup(this, 'pm_38')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=16911023&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						40
+					</TD>
+					<TD class="m">
+						18356750
+					</TD>
+					<TD>
+						Cutaneous microvascular dysfunction is associated with human leukocyte antigen-DQ in youths with type 1 diabetes.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=18356750" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=39' onClick="return popup(this, 'pm_39')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=18356750&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						41
+					</TD>
+					<TD class="m">
+						25773770
+					</TD>
+					<TD>
+						Association between HLA-â¡gene polymorphism and Helicobacter pylori infection in Asian and European population: A meta-analysis.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=25773770" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=40' onClick="return popup(this, 'pm_40')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=25773770&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						42
+					</TD>
+					<TD class="m">
+						15009387
+					</TD>
+					<TD>
+						HLA-DQA1 and DQB1 alleles are associated with genetic susceptibility to psoriasis vulgaris in Chinese Han.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=15009387" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=41' onClick="return popup(this, 'pm_41')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=15009387&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						43
+					</TD>
+					<TD class="m">
+						21318258
+					</TD>
+					<TD>
+						Respiratory regulation in narcolepsy.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=21318258" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=42' onClick="return popup(this, 'pm_42')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=21318258&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						44
+					</TD>
+					<TD class="m">
+						28032448
+					</TD>
+					<TD>
+						HLA-DQA1 and HLA-DQB1 allele diversity and its extended haplotypes in Madeira Island (Portugal).
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=28032448" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=43' onClick="return popup(this, 'pm_43')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=28032448&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						45
+					</TD>
+					<TD class="m">
+						9271631
+					</TD>
+					<TD>
+						HLA class II haplotype and sequence analysis support a role for DQ in narcolepsy.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=9271631" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=44' onClick="return popup(this, 'pm_44')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=9271631&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						46
+					</TD>
+					<TD class="m">
+						30396320
+					</TD>
+					<TD>
+						Promotion of cell-invasive activity through the induction of LPA receptor-1 in pancreatic cancer cells.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=30396320" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=45' onClick="return popup(this, 'pm_45')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=30396320&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						47
+					</TD>
+					<TD class="m">
+						25172978
+					</TD>
+					<TD>
+						HLA genotyping in pediatric celiac disease patients.
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=25172978" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=46' onClick="return popup(this, 'pm_46')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=25172978&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						48
+					</TD>
+					<TD class="m">
+						12666382
+					</TD>
+					<TD>
+						[Prevalence and predictive value of GAD65 autoantibodies and their correlation with HLA DR-DQ genotypes in children with type-1 diabetes].
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=12666382" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=47' onClick="return popup(this, 'pm_47')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=12666382&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						49
+					</TD>
+					<TD class="m">
+						20138312
+					</TD>
+					<TD>
+						[Outcome differences in pediatric patients with type 1 diabetes mellitus depending on their HLA-DQ genotypes].
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=20138312" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=48' onClick="return popup(this, 'pm_48')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=20138312&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						50
+					</TD>
+					<TD class="m">
+						11802952
+					</TD>
+					<TD>
+						[Association between asthma and the polymorphism of HLA-DQ genes].
+					</TD>
+					<TD>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=11802952" target="_blank">Pubmed</a>
+					</TD>
+					<TD class="r">
+						1.873E-5
+					</TD>
+					<TD class="r">
+						1.869E-3
+					</TD>
+					<TD class="r">
+						1.931E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.233E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=pm&row=49' onClick="return popup(this, 'pm_49')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Pubmed&id=11802952&namespace=Pubmed">2</A>
+					</TD>
+				</TR>
+				</TABLE><div class="showmore" onclick="showAll('8_0');">Show 45 more annotations</div>
+		</DIV>
+		
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>9: Interaction [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=it' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">146 input genes in category / 2938 annotations before applied cutoff / 18870 genes in category</span>
+		</h4>
+		<div class="indent">
+		<div class="via">No results to display</div>
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>10: Cytoband [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=cyto' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">168 input genes in category / 145 annotations before applied cutoff / 34661 genes in category</span>
+		</h4>
+		<div class="indent">
+		
+		<DIV id="f10_0" class="firstfive">
+			<TABLE border="0" cellpadding="3" cellspacing="4" class="table-font solid2">
+				<TR class="tblhead">
+					<TD>
+					</TD>
+					<TD>ID</TD>
+					<TD>Name</TD>
+					<TD>Source</TD>
+					<TD>pValue</TD>
+					<TD>FDR B&H</TD>
+					<TD>FDR B&Y</TD>
+					<TD>Bonferroni</TD>
+					<TD>
+						Genes from Input
+					</TD>
+					<TD>
+						Genes in Annotation
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						1
+					</TD>
+					<TD class="m">
+						1q31-q32
+					</TD>
+					<TD>
+						1q31-q32
+					</TD>
+					<TD>
+						<a href=" " target="_blank"> </a>
+					</TD>
+					<TD class="r">
+						1.392E-4
+					</TD>
+					<TD class="r">
+						2.019E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.122E-1</div>
+					</TD>
+					<TD class="r">
+						2.019E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=cyto&row=0' onClick="return popup(this, 'cyto_0')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Cytoband&id=1q31-q32&namespace= ">4</A>
+					</TD>
+				</TR>
+				</TABLE>
+		</DIV>
+		
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>11: Transcription Factor Binding Site [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=tt' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">75 input genes in category / 380 annotations before applied cutoff / 9770 genes in category</span>
+		</h4>
+		<div class="indent">
+		<div class="via">No results to display</div>
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>12: Gene Family [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=gf' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">121 input genes in category / 90 annotations before applied cutoff / 18194 genes in category</span>
+		</h4>
+		<div class="indent">
+		<div class="via">No results to display</div>
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>13: Coexpression [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=ct' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">160 input genes in category / 5445 annotations before applied cutoff / 22900 genes in category</span>
+		</h4>
+		<div class="indent">
+		<div class="via">No results to display</div>
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>14: Coexpression Atlas [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=cta' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">159 input genes in category / 2612 annotations before applied cutoff / 21555 genes in category</span>
+		</h4>
+		<div class="indent">
+		
+		<DIV id="f14_0" class="firstfive">
+			<TABLE border="0" cellpadding="3" cellspacing="4" class="table-font solid2">
+				<TR class="tblhead">
+					<TD>
+					</TD>
+					<TD>ID</TD>
+					<TD>Name</TD>
+					<TD>Source</TD>
+					<TD>pValue</TD>
+					<TD>FDR B&H</TD>
+					<TD>FDR B&Y</TD>
+					<TD>Bonferroni</TD>
+					<TD>
+						Genes from Input
+					</TD>
+					<TD>
+						Genes in Annotation
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						1
+					</TD>
+					<TD class="m">
+						gudmap developingLowerUrinaryTract e14.5  urogenital sinus 200 k1
+					</TD>
+					<TD>
+						DevelopingLowerUrinaryTract e14.5  urogenital sinus emap-5517 k-means-cluster#1 top-relative-expression-ranked 200
+					</TD>
+					<TD>
+						<a href="http://www.gudmap.org/" target="_blank">Gudmap Mouse MOE430.2</a>
+					</TD>
+					<TD class="r">
+						2.147E-5
+					</TD>
+					<TD class="r">
+						3.526E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.978E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">5.607E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=cta&row=0' onClick="return popup(this, 'cta_0')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=CoexpressionAtlas&id=gudmap_developingLowerUrinaryTract_e14.5_ urogenital sinus_200_k1&namespace=Gudmap Mouse MOE430.2">8</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						2
+					</TD>
+					<TD class="m">
+						gudmap developingLowerUrinaryTract P2 bladder detrusor (LCM) 500 k5
+					</TD>
+					<TD>
+						DevelopingLowerUrinaryTract P2 bladder detrusor (LCM) emap-30376 k-means-cluster#5 top-relative-expression-ranked 500
+					</TD>
+					<TD>
+						<a href="http://www.gudmap.org/" target="_blank">Gudmap Mouse MOE430.2</a>
+					</TD>
+					<TD class="r">
+						2.700E-5
+					</TD>
+					<TD class="r">
+						3.526E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.978E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">7.052E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=cta&row=1' onClick="return popup(this, 'cta_1')"> 4</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=CoexpressionAtlas&id=gudmap_developingLowerUrinaryTract_P2_bladder detrusor (LCM)_500_k5&namespace=Gudmap Mouse MOE430.2">24</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						3
+					</TD>
+					<TD class="m">
+						gudmap developingLowerUrinaryTract e14.5  bladder 200 k4
+					</TD>
+					<TD>
+						DevelopingLowerUrinaryTract e14.5  bladder emap-30872 k-means-cluster#4 top-relative-expression-ranked 200
+					</TD>
+					<TD>
+						<a href="http://www.gudmap.org/" target="_blank">Gudmap Mouse MOE430.2</a>
+					</TD>
+					<TD class="r">
+						5.407E-5
+					</TD>
+					<TD class="r">
+						3.531E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.982E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">1.412E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=cta&row=2' onClick="return popup(this, 'cta_2')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=CoexpressionAtlas&id=gudmap_developingLowerUrinaryTract_e14.5_ bladder_200_k4&namespace=Gudmap Mouse MOE430.2">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						4
+					</TD>
+					<TD class="m">
+						gudmap developingLowerUrinaryTract e14.5  bladder 100 k5
+					</TD>
+					<TD>
+						DevelopingLowerUrinaryTract e14.5  bladder emap-30872 k-means-cluster#5 top-relative-expression-ranked 100
+					</TD>
+					<TD>
+						<a href="http://www.gudmap.org/" target="_blank">Gudmap Mouse MOE430.2</a>
+					</TD>
+					<TD class="r">
+						5.407E-5
+					</TD>
+					<TD class="r">
+						3.531E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.982E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">1.412E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=cta&row=3' onClick="return popup(this, 'cta_3')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=CoexpressionAtlas&id=gudmap_developingLowerUrinaryTract_e14.5_ bladder_100_k5&namespace=Gudmap Mouse MOE430.2">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						5
+					</TD>
+					<TD class="m">
+						gudmap dev gonad e11.5 F SupCellPrec Sry k2 1000
+					</TD>
+					<TD>
+						dev gonad e11.5 F SupCellPrec Sry k-means-cluster#2 top-relative-expression-ranked 1000
+					</TD>
+					<TD>
+						<a href="http://www.gudmap.org/" target="_blank">Gudmap Mouse ST 1.0</a>
+					</TD>
+					<TD class="r">
+						8.328E-5
+					</TD>
+					<TD class="r">
+						4.350E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.674E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">2.175E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=cta&row=4' onClick="return popup(this, 'cta_4')"> 6</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=CoexpressionAtlas&id=gudmap_dev gonad_e11.5_F_SupCellPrec_Sry_k2_1000&namespace=Gudmap Mouse ST 1.0">97</A>
+					</TD>
+				</TR>
+				</TABLE>
+		</DIV>
+		
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>15: Computational [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=cgs' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">79 input genes in category / 284 annotations before applied cutoff / 10004 genes in category</span>
+		</h4>
+		<div class="indent">
+		<div class="via">No results to display</div>
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>16: MicroRNA [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">174 input genes in category / 4482 annotations before applied cutoff / 72243 genes in category</span>
+		</h4>
+		<div class="indent">
+		
+		<DIV id="f16_0" class="firstfive">
+			<TABLE border="0" cellpadding="3" cellspacing="4" class="table-font solid2">
+				<TR class="tblhead">
+					<TD>
+					</TD>
+					<TD>ID</TD>
+					<TD>Name</TD>
+					<TD>Source</TD>
+					<TD>pValue</TD>
+					<TD>FDR B&H</TD>
+					<TD>FDR B&Y</TD>
+					<TD>Bonferroni</TD>
+					<TD>
+						Genes from Input
+					</TD>
+					<TD>
+						Genes in Annotation
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						1
+					</TD>
+					<TD class="m">
+						mmu-miR-592-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-592-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						1.661E-8
+					</TD>
+					<TD class="r">
+						7.444E-5
+					</TD>
+					<TD class="r">
+						6.689E-4
+					</TD>
+					<TD class="r">
+						7.444E-5
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=0' onClick="return popup(this, 'mt_0')"> 9</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-592-5p&namespace=MirDB">259</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						2
+					</TD>
+					<TD class="m">
+						hsa-miR-4673:Functional MTI (Weak)
+					</TD>
+					<TD>
+						Functional MTI (Weak)
+					</TD>
+					<TD>
+						<a href=" " target="_blank">miRTarbase</a>
+					</TD>
+					<TD class="r">
+						7.983E-8
+					</TD>
+					<TD class="r">
+						1.789E-4
+					</TD>
+					<TD class="r">
+						1.608E-3
+					</TD>
+					<TD class="r">
+						3.578E-4
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=1' onClick="return popup(this, 'mt_1')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-4673:Functional MTI (Weak)&namespace=miRTarbase">147</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						3
+					</TD>
+					<TD class="m">
+						hsa-miR-8073
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-8073" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						1.414E-7
+					</TD>
+					<TD class="r">
+						2.112E-4
+					</TD>
+					<TD class="r">
+						1.898E-3
+					</TD>
+					<TD class="r">
+						6.336E-4
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=2' onClick="return popup(this, 'mt_2')"> 9</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-8073&namespace=MirDB">333</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						4
+					</TD>
+					<TD class="m">
+						mmu-miR-7036b-3p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-7036b-3p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						5.783E-7
+					</TD>
+					<TD class="r">
+						6.480E-4
+					</TD>
+					<TD class="r">
+						5.822E-3
+					</TD>
+					<TD class="r">
+						2.592E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=3' onClick="return popup(this, 'mt_3')"> 8</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-7036b-3p&namespace=MirDB">288</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						5
+					</TD>
+					<TD class="m">
+						hsa-miR-6845-3p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-6845-3p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						1.036E-6
+					</TD>
+					<TD class="r">
+						7.956E-4
+					</TD>
+					<TD class="r">
+						7.148E-3
+					</TD>
+					<TD class="r">
+						4.644E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=4' onClick="return popup(this, 'mt_4')"> 9</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-6845-3p&namespace=MirDB">423</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						6
+					</TD>
+					<TD class="m">
+						mmu-miR-6950-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-6950-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						1.304E-6
+					</TD>
+					<TD class="r">
+						7.956E-4
+					</TD>
+					<TD class="r">
+						7.148E-3
+					</TD>
+					<TD class="r">
+						5.842E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=5' onClick="return popup(this, 'mt_5')"> 9</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-6950-5p&namespace=MirDB">435</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						7
+					</TD>
+					<TD class="m">
+						mmu-miR-485-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-485-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						1.493E-6
+					</TD>
+					<TD class="r">
+						7.956E-4
+					</TD>
+					<TD class="r">
+						7.148E-3
+					</TD>
+					<TD class="r">
+						6.691E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=6' onClick="return popup(this, 'mt_6')"> 8</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-485-5p&namespace=MirDB">327</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						8
+					</TD>
+					<TD class="m">
+						hsa-miR-4645-5p:Functional MTI (Weak)
+					</TD>
+					<TD>
+						Functional MTI (Weak)
+					</TD>
+					<TD>
+						<a href=" " target="_blank">miRTarbase</a>
+					</TD>
+					<TD class="r">
+						1.577E-6
+					</TD>
+					<TD class="r">
+						7.956E-4
+					</TD>
+					<TD class="r">
+						7.148E-3
+					</TD>
+					<TD class="r">
+						7.070E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=7' onClick="return popup(this, 'mt_7')"> 6</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-4645-5p:Functional MTI (Weak)&namespace=miRTarbase">145</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						9
+					</TD>
+					<TD class="m">
+						mmu-miR-1962
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-1962" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						1.598E-6
+					</TD>
+					<TD class="r">
+						7.956E-4
+					</TD>
+					<TD class="r">
+						7.148E-3
+					</TD>
+					<TD class="r">
+						7.160E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=8' onClick="return popup(this, 'mt_8')"> 8</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-1962&namespace=MirDB">330</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						10
+					</TD>
+					<TD class="m">
+						mmu-miR-326-3p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-326-3p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						1.916E-6
+					</TD>
+					<TD class="r">
+						8.121E-4
+					</TD>
+					<TD class="r">
+						7.296E-3
+					</TD>
+					<TD class="r">
+						8.587E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=9' onClick="return popup(this, 'mt_9')"> 9</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-326-3p&namespace=MirDB">456</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						11
+					</TD>
+					<TD class="m">
+						hsa-miR-210-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-210-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						1.993E-6
+					</TD>
+					<TD class="r">
+						8.121E-4
+					</TD>
+					<TD class="r">
+						7.296E-3
+					</TD>
+					<TD class="r">
+						8.933E-3
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=10' onClick="return popup(this, 'mt_10')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-210-5p&namespace=MirDB">237</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						12
+					</TD>
+					<TD class="m">
+						hsa-miR-3918
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-3918" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						2.683E-6
+					</TD>
+					<TD class="r">
+						8.338E-4
+					</TD>
+					<TD class="r">
+						7.492E-3
+					</TD>
+					<TD class="r">
+						1.203E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=11' onClick="return popup(this, 'mt_11')"> 8</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-3918&namespace=MirDB">354</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						13
+					</TD>
+					<TD class="m">
+						mmu-miR-7033-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-7033-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						2.809E-6
+					</TD>
+					<TD class="r">
+						8.338E-4
+					</TD>
+					<TD class="r">
+						7.492E-3
+					</TD>
+					<TD class="r">
+						1.259E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=12' onClick="return popup(this, 'mt_12')"> 9</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-7033-5p&namespace=MirDB">478</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						14
+					</TD>
+					<TD class="m">
+						hsa-miR-6752-3p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-6752-3p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						2.906E-6
+					</TD>
+					<TD class="r">
+						8.338E-4
+					</TD>
+					<TD class="r">
+						7.492E-3
+					</TD>
+					<TD class="r">
+						1.302E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=13' onClick="return popup(this, 'mt_13')"> 9</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-6752-3p&namespace=MirDB">480</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						15
+					</TD>
+					<TD class="m">
+						mmu-miR-491-3p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-491-3p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						3.066E-6
+					</TD>
+					<TD class="r">
+						8.338E-4
+					</TD>
+					<TD class="r">
+						7.492E-3
+					</TD>
+					<TD class="r">
+						1.374E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=14' onClick="return popup(this, 'mt_14')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-491-3p&namespace=MirDB">253</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						16
+					</TD>
+					<TD class="m">
+						mmu-miR-6982-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-6982-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						3.066E-6
+					</TD>
+					<TD class="r">
+						8.338E-4
+					</TD>
+					<TD class="r">
+						7.492E-3
+					</TD>
+					<TD class="r">
+						1.374E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=15' onClick="return popup(this, 'mt_15')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-6982-5p&namespace=MirDB">253</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						17
+					</TD>
+					<TD class="m">
+						mmu-miR-6961-3p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-6961-3p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						3.163E-6
+					</TD>
+					<TD class="r">
+						8.338E-4
+					</TD>
+					<TD class="r">
+						7.492E-3
+					</TD>
+					<TD class="r">
+						1.417E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=16' onClick="return popup(this, 'mt_16')"> 8</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-6961-3p&namespace=MirDB">362</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						18
+					</TD>
+					<TD class="m">
+						hsa-miR-3116
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-3116" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						4.426E-6
+					</TD>
+					<TD class="r">
+						1.102E-3
+					</TD>
+					<TD class="r">
+						9.902E-3
+					</TD>
+					<TD class="r">
+						1.984E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=17' onClick="return popup(this, 'mt_17')"> 8</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-3116&namespace=MirDB">379</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						19
+					</TD>
+					<TD class="m">
+						hsa-miR-6749-3p:Functional MTI (Weak)
+					</TD>
+					<TD>
+						Functional MTI (Weak)
+					</TD>
+					<TD>
+						<a href=" " target="_blank">miRTarbase</a>
+					</TD>
+					<TD class="r">
+						5.154E-6
+					</TD>
+					<TD class="r">
+						1.216E-3
+					</TD>
+					<TD class="r">
+						1.092E-2
+					</TD>
+					<TD class="r">
+						2.310E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=18' onClick="return popup(this, 'mt_18')"> 8</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-6749-3p:Functional MTI (Weak)&namespace=miRTarbase">387</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						20
+					</TD>
+					<TD class="m">
+						hsa-miR-4493
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-4493" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						1.104E-5
+					</TD>
+					<TD class="r">
+						2.302E-3
+					</TD>
+					<TD class="r">
+						2.068E-2
+					</TD>
+					<TD class="r">
+						4.949E-2
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=19' onClick="return popup(this, 'mt_19')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-4493&namespace=MirDB">308</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						21
+					</TD>
+					<TD class="m">
+						mmu-miR-346-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-346-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						1.153E-5
+					</TD>
+					<TD class="r">
+						2.302E-3
+					</TD>
+					<TD class="r">
+						2.068E-2
+					</TD>
+					<TD class="r">
+						<div class="o">5.169E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=20' onClick="return popup(this, 'mt_20')"> 6</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-346-5p&namespace=MirDB">205</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						22
+					</TD>
+					<TD class="m">
+						hsa-miR-499a-3p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-499a-3p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						1.162E-5
+					</TD>
+					<TD class="r">
+						2.302E-3
+					</TD>
+					<TD class="r">
+						2.068E-2
+					</TD>
+					<TD class="r">
+						<div class="o">5.208E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=21' onClick="return popup(this, 'mt_21')"> 8</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-499a-3p&namespace=MirDB">433</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						23
+					</TD>
+					<TD class="m">
+						hsa-miR-499b-3p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-499b-3p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						1.181E-5
+					</TD>
+					<TD class="r">
+						2.302E-3
+					</TD>
+					<TD class="r">
+						2.068E-2
+					</TD>
+					<TD class="r">
+						<div class="o">5.295E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=22' onClick="return popup(this, 'mt_22')"> 8</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-499b-3p&namespace=MirDB">434</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						24
+					</TD>
+					<TD class="m">
+						hsa-miR-221-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-221-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						1.356E-5
+					</TD>
+					<TD class="r">
+						2.533E-3
+					</TD>
+					<TD class="r">
+						2.276E-2
+					</TD>
+					<TD class="r">
+						<div class="o">6.080E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=23' onClick="return popup(this, 'mt_23')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-221-5p&namespace=MirDB">318</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						25
+					</TD>
+					<TD class="m">
+						hsa-miR-7974
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-7974" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						2.370E-5
+					</TD>
+					<TD class="r">
+						4.139E-3
+					</TD>
+					<TD class="r">
+						3.719E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.062E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=24' onClick="return popup(this, 'mt_24')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-7974&namespace=MirDB">347</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						26
+					</TD>
+					<TD class="m">
+						hsa-miR-6134
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-6134" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						2.608E-5
+					</TD>
+					<TD class="r">
+						4.139E-3
+					</TD>
+					<TD class="r">
+						3.719E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.169E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=25' onClick="return popup(this, 'mt_25')"> 8</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-6134&namespace=MirDB">485</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						27
+					</TD>
+					<TD class="m">
+						hsa-miR-6817-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-6817-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						2.643E-5
+					</TD>
+					<TD class="r">
+						4.139E-3
+					</TD>
+					<TD class="r">
+						3.719E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.185E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=26' onClick="return popup(this, 'mt_26')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-6817-5p&namespace=MirDB">353</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						28
+					</TD>
+					<TD class="m">
+						mmu-miR-7656-3p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-7656-3p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						2.740E-5
+					</TD>
+					<TD class="r">
+						4.139E-3
+					</TD>
+					<TD class="r">
+						3.719E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.228E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=27' onClick="return popup(this, 'mt_27')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-7656-3p&namespace=MirDB">355</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						29
+					</TD>
+					<TD class="m">
+						hsa-miR-4769-3p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-4769-3p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						2.740E-5
+					</TD>
+					<TD class="r">
+						4.139E-3
+					</TD>
+					<TD class="r">
+						3.719E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.228E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=28' onClick="return popup(this, 'mt_28')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-4769-3p&namespace=MirDB">355</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						30
+					</TD>
+					<TD class="m">
+						mmu-miR-7117-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-7117-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						2.994E-5
+					</TD>
+					<TD class="r">
+						4.139E-3
+					</TD>
+					<TD class="r">
+						3.719E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.342E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=29' onClick="return popup(this, 'mt_29')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-7117-5p&namespace=MirDB">360</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						31
+					</TD>
+					<TD class="m">
+						mmu-miR-7212-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-7212-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						2.994E-5
+					</TD>
+					<TD class="r">
+						4.139E-3
+					</TD>
+					<TD class="r">
+						3.719E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.342E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=30' onClick="return popup(this, 'mt_30')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-7212-5p&namespace=MirDB">360</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						32
+					</TD>
+					<TD class="m">
+						mmu-miR-6918-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-6918-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						3.013E-5
+					</TD>
+					<TD class="r">
+						4.139E-3
+					</TD>
+					<TD class="r">
+						3.719E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.350E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=31' onClick="return popup(this, 'mt_31')"> 8</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-6918-5p&namespace=MirDB">495</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						33
+					</TD>
+					<TD class="m">
+						mmu-miR-12179-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-12179-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						3.047E-5
+					</TD>
+					<TD class="r">
+						4.139E-3
+					</TD>
+					<TD class="r">
+						3.719E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.366E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=32' onClick="return popup(this, 'mt_32')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-12179-5p&namespace=MirDB">361</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						34
+					</TD>
+					<TD class="m">
+						hsa-miR-10b-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-10b-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						3.676E-5
+					</TD>
+					<TD class="r">
+						4.679E-3
+					</TD>
+					<TD class="r">
+						4.204E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.648E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=33' onClick="return popup(this, 'mt_33')"> 6</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-10b-5p&namespace=MirDB">252</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						35
+					</TD>
+					<TD class="m">
+						mmu-miR-221-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-221-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						3.758E-5
+					</TD>
+					<TD class="r">
+						4.679E-3
+					</TD>
+					<TD class="r">
+						4.204E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.684E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=34' onClick="return popup(this, 'mt_34')"> 6</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-221-5p&namespace=MirDB">253</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						36
+					</TD>
+					<TD class="m">
+						hsa-miR-10a-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-10a-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						3.758E-5
+					</TD>
+					<TD class="r">
+						4.679E-3
+					</TD>
+					<TD class="r">
+						4.204E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.684E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=35' onClick="return popup(this, 'mt_35')"> 6</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-10a-5p&namespace=MirDB">253</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						37
+					</TD>
+					<TD class="m">
+						mmu-miR-3073a-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-3073a-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						3.926E-5
+					</TD>
+					<TD class="r">
+						4.756E-3
+					</TD>
+					<TD class="r">
+						4.274E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.760E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=36' onClick="return popup(this, 'mt_36')"> 6</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-3073a-5p&namespace=MirDB">255</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						38
+					</TD>
+					<TD class="m">
+						hsa-miR-6511a-3p:Functional MTI (Weak)
+					</TD>
+					<TD>
+						Functional MTI (Weak)
+					</TD>
+					<TD>
+						<a href=" " target="_blank">miRTarbase</a>
+					</TD>
+					<TD class="r">
+						4.035E-5
+					</TD>
+					<TD class="r">
+						4.759E-3
+					</TD>
+					<TD class="r">
+						4.276E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.808E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=37' onClick="return popup(this, 'mt_37')"> 4</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-6511a-3p:Functional MTI (Weak)&namespace=miRTarbase">78</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						39
+					</TD>
+					<TD class="m">
+						hsa-miR-6511b-3p:Functional MTI (Weak)
+					</TD>
+					<TD>
+						Functional MTI (Weak)
+					</TD>
+					<TD>
+						<a href=" " target="_blank">miRTarbase</a>
+					</TD>
+					<TD class="r">
+						4.242E-5
+					</TD>
+					<TD class="r">
+						4.875E-3
+					</TD>
+					<TD class="r">
+						4.380E-2
+					</TD>
+					<TD class="r">
+						<div class="o">1.901E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=38' onClick="return popup(this, 'mt_38')"> 4</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-6511b-3p:Functional MTI (Weak)&namespace=miRTarbase">79</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						40
+					</TD>
+					<TD class="m">
+						mmu-miR-3073b-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-3073b-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						4.660E-5
+					</TD>
+					<TD class="r">
+						5.222E-3
+					</TD>
+					<TD class="r">
+						4.692E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.089E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=39' onClick="return popup(this, 'mt_39')"> 6</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-3073b-5p&namespace=MirDB">263</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						41
+					</TD>
+					<TD class="m">
+						hsa-miR-216a-5p:TargetScan
+					</TD>
+					<TD>
+						hsa-miR-216a-5p
+					</TD>
+					<TD>
+						<a href="http://www.targetscan.org/" target="_blank">TargetScan</a>
+					</TD>
+					<TD class="r">
+						5.066E-5
+					</TD>
+					<TD class="r">
+						5.337E-3
+					</TD>
+					<TD class="r">
+						4.796E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.271E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=40' onClick="return popup(this, 'mt_40')"> 6</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-216a-5p:TargetScan&namespace=TargetScan">267</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						42
+					</TD>
+					<TD class="m">
+						hsa-miR-324-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-324-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						5.071E-5
+					</TD>
+					<TD class="r">
+						5.337E-3
+					</TD>
+					<TD class="r">
+						4.796E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.273E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=41' onClick="return popup(this, 'mt_41')"> 5</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-324-5p&namespace=MirDB">163</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						43
+					</TD>
+					<TD class="m">
+						hsa-miR-4469
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-4469" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						5.121E-5
+					</TD>
+					<TD class="r">
+						5.337E-3
+					</TD>
+					<TD class="r">
+						4.796E-2
+					</TD>
+					<TD class="r">
+						<div class="o">2.295E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=42' onClick="return popup(this, 'mt_42')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-4469&namespace=MirDB">392</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						44
+					</TD>
+					<TD class="m">
+						hsa-miR-6742-3p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-6742-3p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						6.089E-5
+					</TD>
+					<TD class="r">
+						6.168E-3
+					</TD>
+					<TD class="r">
+						<div class="o">5.542E-2</div>
+					</TD>
+					<TD class="r">
+						<div class="o">2.729E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=43' onClick="return popup(this, 'mt_43')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-6742-3p&namespace=MirDB">403</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						45
+					</TD>
+					<TD class="m">
+						mmu-miR-6997-5p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-6997-5p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						6.206E-5
+					</TD>
+					<TD class="r">
+						6.168E-3
+					</TD>
+					<TD class="r">
+						<div class="o">5.542E-2</div>
+					</TD>
+					<TD class="r">
+						<div class="o">2.781E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=44' onClick="return popup(this, 'mt_44')"> 6</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-6997-5p&namespace=MirDB">277</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						46
+					</TD>
+					<TD class="m">
+						mmu-miR-6979-3p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=mmu-miR-6979-3p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						6.330E-5
+					</TD>
+					<TD class="r">
+						6.168E-3
+					</TD>
+					<TD class="r">
+						<div class="o">5.542E-2</div>
+					</TD>
+					<TD class="r">
+						<div class="o">2.837E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=45' onClick="return popup(this, 'mt_45')"> 6</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=mmu-miR-6979-3p&namespace=MirDB">278</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						47
+					</TD>
+					<TD class="m">
+						hsa-miR-650
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-650" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						6.779E-5
+					</TD>
+					<TD class="r">
+						6.464E-3
+					</TD>
+					<TD class="r">
+						<div class="o">5.808E-2</div>
+					</TD>
+					<TD class="r">
+						<div class="o">3.038E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=46' onClick="return popup(this, 'mt_46')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-650&namespace=MirDB">410</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						48
+					</TD>
+					<TD class="m">
+						hsa-miR-5691
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-5691" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						7.201E-5
+					</TD>
+					<TD class="r">
+						6.587E-3
+					</TD>
+					<TD class="r">
+						<div class="o">5.918E-2</div>
+					</TD>
+					<TD class="r">
+						<div class="o">3.228E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=47' onClick="return popup(this, 'mt_47')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-5691&namespace=MirDB">414</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row p5">
+					<TD>
+						49
+					</TD>
+					<TD class="m">
+						hsa-miR-6805-3p
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-6805-3p" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						7.201E-5
+					</TD>
+					<TD class="r">
+						6.587E-3
+					</TD>
+					<TD class="r">
+						<div class="o">5.918E-2</div>
+					</TD>
+					<TD class="r">
+						<div class="o">3.228E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=48' onClick="return popup(this, 'mt_48')"> 7</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-6805-3p&namespace=MirDB">414</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row p5">
+					<TD>
+						50
+					</TD>
+					<TD class="m">
+						hsa-miR-759
+					</TD>
+					<TD>
+						
+					</TD>
+					<TD>
+						<a href="http://www.mirdb.org/cgi-bin/mature_mir.cgi?name=hsa-miR-759" target="_blank">MirDB</a>
+					</TD>
+					<TD class="r">
+						7.686E-5
+					</TD>
+					<TD class="r">
+						6.732E-3
+					</TD>
+					<TD class="r">
+						<div class="o">6.048E-2</div>
+					</TD>
+					<TD class="r">
+						<div class="o">3.445E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=mt&row=49' onClick="return popup(this, 'mt_49')"> 6</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=MicroRNA&id=hsa-miR-759&namespace=MirDB">288</A>
+					</TD>
+				</TR>
+				</TABLE><div class="showmore" onclick="showAll('16_0');">Show 45 more annotations</div>
+		</DIV>
+		
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>17: Drug [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=drgt' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">159 input genes in category / 17445 annotations before applied cutoff / 22832 genes in category</span>
+		</h4>
+		<div class="indent">
+		<div class="via">No results to display</div>
+		</div>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<h4>18: Disease [<A href='https://toppgene.cchmc.org/display.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=dis' target="_blank" class="little-font">Display Chart</A>]
+		<span class="via">124 input genes in category / 3291 annotations before applied cutoff / 19349 genes in category</span>
+		</h4>
+		<div class="indent">
+		
+		<DIV id="f18_0" class="firstfive">
+			<TABLE border="0" cellpadding="3" cellspacing="4" class="table-font solid2">
+				<TR class="tblhead">
+					<TD>
+					</TD>
+					<TD>ID</TD>
+					<TD>Name</TD>
+					<TD>Source</TD>
+					<TD>pValue</TD>
+					<TD>FDR B&H</TD>
+					<TD>FDR B&Y</TD>
+					<TD>Bonferroni</TD>
+					<TD>
+						Genes from Input
+					</TD>
+					<TD>
+						Genes in Annotation
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						1
+					</TD>
+					<TD class="m">
+						C0007820
+					</TD>
+					<TD>
+						Cerebrovascular Disorders
+					</TD>
+					<TD>
+						<a href="" target="_blank">DisGeNET BeFree</a>
+					</TD>
+					<TD class="r">
+						1.820E-5
+					</TD>
+					<TD class="r">
+						4.469E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.878E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">5.990E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=dis&row=0' onClick="return popup(this, 'dis_0')"> 9</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Disease&id=C0007820&namespace=DisGeNET BeFree">231</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						2
+					</TD>
+					<TD class="m">
+						C0596452
+					</TD>
+					<TD>
+						disabling disease
+					</TD>
+					<TD>
+						<a href="" target="_blank">DisGeNET BeFree</a>
+					</TD>
+					<TD class="r">
+						2.983E-5
+					</TD>
+					<TD class="r">
+						4.469E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.878E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">9.818E-2</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=dis&row=1' onClick="return popup(this, 'dis_1')"> 3</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Disease&id=C0596452&namespace=DisGeNET BeFree">10</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						3
+					</TD>
+					<TD class="m">
+						C0025164
+					</TD>
+					<TD>
+						Megaesophagus
+					</TD>
+					<TD>
+						<a href="" target="_blank">DisGeNET Curated</a>
+					</TD>
+					<TD class="r">
+						4.074E-5
+					</TD>
+					<TD class="r">
+						4.469E-2
+					</TD>
+					<TD class="r">
+						<div class="o">3.878E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">1.341E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=dis&row=2' onClick="return popup(this, 'dis_2')"> 2</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Disease&id=C0025164&namespace=DisGeNET Curated">2</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="odd_row">
+					<TD>
+						4
+					</TD>
+					<TD class="m">
+						C0850666
+					</TD>
+					<TD>
+						Infection caused by Helicobacter pylori
+					</TD>
+					<TD>
+						<a href="" target="_blank">DisGeNET BeFree</a>
+					</TD>
+					<TD class="r">
+						5.884E-5
+					</TD>
+					<TD class="r">
+						4.748E-2
+					</TD>
+					<TD class="r">
+						<div class="o">4.120E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">1.936E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=dis&row=3' onClick="return popup(this, 'dis_3')"> 10</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Disease&id=C0850666&namespace=DisGeNET BeFree">334</A>
+					</TD>
+				</TR>
+				
+				<TR valign="top" class="even_row">
+					<TD>
+						5
+					</TD>
+					<TD class="m">
+						C0013182
+					</TD>
+					<TD>
+						Drug Allergy
+					</TD>
+					<TD>
+						<a href="" target="_blank">DisGeNET Curated</a>
+					</TD>
+					<TD class="r">
+						7.214E-5
+					</TD>
+					<TD class="r">
+						4.748E-2
+					</TD>
+					<TD class="r">
+						<div class="o">4.120E-1</div>
+					</TD>
+					<TD class="r">
+						<div class="o">2.374E-1</div>
+					</TD>
+					<TD class="r">
+						<A href='https://toppgene.cchmc.org/showQueryTerms.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&feature=dis&row=4' onClick="return popup(this, 'dis_4')"> 4</A>
+					</TD>
+					<TD class="r">
+						<A target="_blank" href="https://toppgene.cchmc.org/showTermDetail.jsp?userdata_id=99a7e72f-ba3c-46df-805b-a691c3cda3c4&category=Disease&id=C0013182&namespace=DisGeNET Curated">35</A>
+					</TD>
+				</TR>
+				</TABLE>
+		</DIV>
+		
+		</div>
+	</TD>
+</TR>
+
+					</TABLE>
+				</TD>
+			</TR>
+			
+			
+			
+			
+
+		</TABLE>
+	</body>
+</html>

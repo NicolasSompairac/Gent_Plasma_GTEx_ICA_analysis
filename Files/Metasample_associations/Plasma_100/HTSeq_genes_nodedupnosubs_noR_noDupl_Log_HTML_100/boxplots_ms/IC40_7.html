@@ -1,0 +1,77 @@
+<head>
+<!-- Plotly.js -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        </head>
+        <body>
+        <!-- Plotly chart will be drawn inside this DIV -->
+        <div id="boxplotIC40_7"></div>
+        <script>
+        /* JAVASCRIPT CODE GOES HERE */
+
+
+
+var xData = ['G3','G2','G2-3','G1','G4'];
+
+var yData = [
+[0.0056,0.0406,-0.1042,-0.2268,-0.0843,0.0041,0.2198,-0.0447,0.0194,-0.0517,-0.1323,0.0334,-0.1294,-0.0775,0.0951,-0.031,0.154,-0.0466,0.008,-0.0324,-0.0304,0.1323,-0.0252,-0.0704,-0.06,-0.1167,0.0548,-0.0856,-0.1025,0.0042,0.0764,0.0484,-0.0833,-0.0722,-0.0466,0.1212,0.0474,0.0872,0.0984,-0.0121,-0.0115,-0.0071,-0.0951,-0.1036,-0.0754,0.0801,-0.0326,-0.0705,0.0538],
+[0.0031,0.0241,0.0607,-0.0086,0.0353,0.0293,0.0905,0.0231,-0.0202,-0.044,-0.1361,-0.0873,-0.2341,0.0425,0.033,0.1203,0.0114,0.0268,0.0697,0.0993,0.0496,0.0757,-0.1007,0.1261,0.1405,-0.1236,0.278,-0.0606,0.0038,-0.1135,0.0058],
+[0.0587,0.096,0.0096,-0.1194],
+[-0.0709,-0.1257,-0.058,1.0E-4,-0.047,-0.0175,0.0547,0.0039,-0.1358],
+[0.0527,-3.0E-4,0.0508,-0.0097,-0.1265,0.0037,-0.0738,6.0E-4,-0.1347,-0.0235]
+];
+
+var colors = ['rgba(255,0,0,1)','rgba(0,255,0,1)','rgba(0,0,255,1)','rgba(255,255,0,1)','rgba(255,0,255,1)'];
+
+var data = [];
+
+for ( var i = 0; i < xData.length; i ++ ) {
+  var result = {
+    type: 'box',
+    y: yData[i],
+    name: xData[i],
+    boxpoints: 'all',
+    jitter: 0.5,
+    whiskerwidth: 0.2,
+    fillcolor: 'cls',
+    marker: {
+      size: 2
+    },
+    line: {
+      width: 1
+    }
+  };
+  data.push(result);
+};
+
+layout = {
+    title: 'Association of IC40 with Grade',
+    yaxis: {
+        autorange: true,
+        showgrid: true,
+        zeroline: true,
+        dtick: 5,
+        gridcolor: 'rgb(255, 255, 255)',
+        gridwidth: 1,
+        zerolinecolor: 'rgb(255, 255, 255)',
+        zerolinewidth: 2
+    },
+    margin: {
+        l: 40,
+        r: 30,
+        b: 80,
+        t: 100
+    },
+    paper_bgcolor: 'rgb(243, 243, 243)',
+    plot_bgcolor: 'rgb(243, 243, 243)',
+    showlegend: false
+};
+
+Plotly.newPlot('boxplotIC40_7', data, layout);
+
+
+
+
+
+
+        </script>
+        </body>
